@@ -4,6 +4,8 @@ A native macOS menu bar app for switching audio output and input, with optional 
 
 The peer host in the examples below is a hostname or Tailscale IP of your other Mac.
 
+![AudioBar panel](screenshot.png)
+
 Menu bar app for switching the Mac's default output and input devices without opening System Settings → Sound.
 
 Click the speaker icon. Output devices are on the left, input devices on the right. The current default is marked. One click makes that device the default for its column. Switching output also sets the default system output device, so alert sounds follow. Under the lists: output volume, mute, and left/right balance, plus input volume when the device exposes it.
